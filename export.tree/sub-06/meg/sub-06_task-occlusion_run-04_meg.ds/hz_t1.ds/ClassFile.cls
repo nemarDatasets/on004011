@@ -1,0 +1,1 @@
+../../../../.git/annex/objects/VP/vM/MD5E-s248--04929f921bad849cdbcd0becaa67555a.cls/MD5E-s248--04929f921bad849cdbcd0becaa67555a.cls

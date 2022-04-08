@@ -1,0 +1,1 @@
+../../../../.git/annex/objects/5W/WP/MD5E-s245--bb7704ec52ca645c6f776853fcabafa6.cls/MD5E-s245--bb7704ec52ca645c6f776853fcabafa6.cls
