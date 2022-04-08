@@ -1,1 +1,0 @@
-../../../../.git/annex/objects/k3/mk/MD5E-s246--e926d5f0919e82675e71d36f60e10884.cls/MD5E-s246--e926d5f0919e82675e71d36f60e10884.cls
