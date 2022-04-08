@@ -1,0 +1,1 @@
+../../../.git/annex/objects/Vz/Q7/MD5E-s473--807546757daafc3165c52e10556ea9b0.cls/MD5E-s473--807546757daafc3165c52e10556ea9b0.cls

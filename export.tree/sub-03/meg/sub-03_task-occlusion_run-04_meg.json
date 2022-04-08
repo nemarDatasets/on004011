@@ -1,0 +1,22 @@
+{
+    "TaskName": "occlusion",
+    "Manufacturer": "CTF",
+    "PowerLineFrequency": "n/a",
+    "SamplingFrequency": 1200.0,
+    "SoftwareFilters": "n/a",
+    "RecordingDuration": 787.9991666666666,
+    "RecordingType": "continuous",
+    "DewarPosition": "n/a",
+    "DigitizedLandmarks": true,
+    "DigitizedHeadPoints": false,
+    "MEGChannelCount": 271,
+    "MEGREFChannelCount": 28,
+    "ContinuousHeadLocalization": false,
+    "HeadCoilFrequency": [],
+    "EEGChannelCount": 0,
+    "EOGChannelCount": 0,
+    "ECGChannelCount": 0,
+    "EMGChannelCount": 0,
+    "MiscChannelCount": 10,
+    "TriggerChannelCount": 0
+}
