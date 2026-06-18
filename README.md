@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004011-blue)](https://doi.org/10.82901/nemar.on004011)
+
 The main folder contains the raw MEG data for all participants in standard bids format. See references.
  
 
