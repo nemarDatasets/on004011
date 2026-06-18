@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": " The nature of neural object representations during dynamic occlusion",
-  "description": "This magnetoencephalography (MEG) dataset investigates neural object representations during dynamic visual occlusion. Participants viewed objects that either disappeared or became occluded during MEG recording, with concurrent eye-tracking. The dataset includes raw MEG data, behavioral responses, eye-tracking recordings, and preprocessed derivatives formatted for multivariate pattern analysis, enabling investigation of how the brain maintains object representations when visual input is interrupted.",
-  "methods_description": "MEG data were collected while participants viewed objects undergoing dynamic occlusion or disappearance. Behavioral responses and eye-tracking data (pupil size, eye position) were recorded simultaneously during the MEG session across multiple runs. Data were preprocessed and epoched relative to stimulus onset and position changes using CoSMoMVPA formatting.",
+  "description": "This magnetoencephalography (MEG) dataset investigates neural object representations during dynamic visual occlusion. Participants viewed objects that were either occluded or disappeared while their neural activity and eye movements were recorded. The dataset includes raw MEG data, behavioral responses, eye-tracking recordings, and preprocessed neural signals epoched relative to stimulus onset and position changes, enabling investigation of how the brain maintains object representations under conditions of visual disruption.",
+  "methods_description": "MEG data were collected during a task involving dynamic occlusion and disappearance of visual stimuli. Behavioral responses and eye-tracking data (pupil size, eye position) were simultaneously recorded during the MEG session across multiple runs. Data were preprocessed and epoched relative to stimulus onset and position changes using CoSMoMVPA formatting.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -14,22 +14,24 @@
   },
   "keywords": [
     {
+      "term": "Magnetoencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
+    },
+    {
       "term": "MEG"
     },
     {
-      "term": "object recognition"
+      "term": "object representation"
     },
     {
       "term": "visual occlusion"
     },
     {
-      "term": "neural representations"
-    },
-    {
       "term": "eye tracking"
     },
     {
-      "term": "multivariate pattern analysis"
+      "term": "neural dynamics"
     }
   ],
   "related_identifiers": [
