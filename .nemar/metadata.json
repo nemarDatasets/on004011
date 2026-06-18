@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": " The nature of neural object representations during dynamic occlusion",
+  "description": "This magnetoencephalography (MEG) dataset investigates neural object representations during dynamic visual occlusion. Participants viewed objects that either disappeared or became occluded during MEG recording, with concurrent eye-tracking. The dataset includes raw MEG data, behavioral responses, eye-tracking recordings, and preprocessed derivatives formatted for multivariate pattern analysis, enabling investigation of how the brain maintains object representations when visual input is interrupted.",
+  "methods_description": "MEG data were collected while participants viewed objects undergoing dynamic occlusion or disappearance. Behavioral responses and eye-tracking data (pupil size, eye position) were recorded simultaneously during the MEG session across multiple runs. Data were preprocessed and epoched relative to stimulus onset and position changes using CoSMoMVPA formatting.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -10,12 +12,27 @@
     "Anina Rich": {},
     "Chris Baker": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004011.v1.0.3",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "MEG"
     },
+    {
+      "term": "object recognition"
+    },
+    {
+      "term": "visual occlusion"
+    },
+    {
+      "term": "neural representations"
+    },
+    {
+      "term": "eye tracking"
+    },
+    {
+      "term": "multivariate pattern analysis"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004011",
       "identifier_type": "URL",
@@ -35,16 +52,21 @@
       "identifier": "10.1038/sdata.2018.110",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004011.v1.0.3",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "Neuroimaging Dataset",
   "modalities": [
     "beh",
     "meg"
   ],
-  "resource_type_specific": "Neuroimaging Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "276.6 GB (3136 files)"
   ],
   "formats": [
     ".acq",
@@ -66,29 +88,8 @@
     ".newds",
     ".res4",
     ".tsv",
-    ".txt"
+    ".txt",
+    ".yml"
   ],
-  "description": "This magnetoencephalography (MEG) dataset investigates neural object representations during dynamic visual occlusion. Participants viewed objects that either disappeared or became occluded during MEG recording, with concurrent eye-tracking. The dataset includes raw MEG data, behavioral event logs, eye-tracking recordings, and preprocessed MEG data epoched relative to stimulus onset and position changes, enabling investigation of how the brain maintains object representations when visual input is disrupted.",
-  "methods_description": "MEG data were collected while participants viewed objects undergoing dynamic occlusion or disappearance. Behavioral events and stimulus positions were recorded for each trial. Eye-tracking data (pupil position and size) were simultaneously acquired during the MEG session. Data were preprocessed and epoched relative to stimulus onset and position changes using CoSMoMVPA formatting.",
-  "keywords": [
-    {
-      "term": "MEG"
-    },
-    {
-      "term": "object recognition"
-    },
-    {
-      "term": "visual occlusion"
-    },
-    {
-      "term": "neural representations"
-    },
-    {
-      "term": "eye tracking"
-    },
-    {
-      "term": "magnetoencephalography"
-    }
-  ],
-  "source_hash": "89dc950f93be354398dc74d00aa45f9b628508e9e5e43ba563619c0d6cd0b253"
+  "source_hash": "639cc9ec8e413abc9492dfc198aa2ae3034fea58a949e0c7cac48b8c40b55dcf"
 }
